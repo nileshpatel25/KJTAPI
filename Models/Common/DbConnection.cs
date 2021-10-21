@@ -12,7 +12,7 @@ namespace KJT.Models.Common
         public static string ConnectionString = string.Empty;
         public DbConnection()
         {
-            ConnectionString = ConfigurationManager.ConnectionStrings["connectionstring"].ToString();
+            ConnectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString();
         }
 
         public DataTable GetDataTable(string SPname, SqlParameter[] parameter)

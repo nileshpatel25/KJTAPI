@@ -115,6 +115,9 @@
     <Compile Include="Models\Customer\Customer.cs" />
     <Compile Include="Models\Customer\Customermaster.cs" />
     <Compile Include="Models\Interface\ICustomer.cs" />
+    <Compile Include="Models\Interface\ILogin.cs" />
+    <Compile Include="Models\Login\Login.cs" />
+    <Compile Include="Models\Login\LoginMaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
